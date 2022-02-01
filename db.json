@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "ITIS 6177",
+      "author": "DEU",
+      "id": 2
+    },
+    {
+      "title": "Software Engineer",
+      "author": "rtet",
+      "id": 3
+    },
+    {
+      "title": "Group 17 ",
+      "author": "dsf",
+      "id": 4
+    },
+    {
+      "title": "erw",
+      "author": "erw",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
