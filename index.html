@@ -44,7 +44,7 @@
                 title,
                 author
             };
-            axios.post('http://localhost:3006/posts', req)
+            axios.post('http://localhost:3004/posts', req)
             .then(function (response) {
                 console.log(response);
                 document.getElementById('title').value= '';
@@ -57,7 +57,7 @@
             });
         }
         function getPosts() {
-            axios.get('http://localhost:3006/posts')
+            axios.get('http://localhost:3004/posts')
             .then(function (response) {
                 const list = document.getElementById('list');
                 if(response && response.data) {
